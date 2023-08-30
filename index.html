@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Taj Hotel Pre-Payment Invoice</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet">
+   <link href="fontawesome/css/all.min.css" rel="stylesheet">
+   <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+   <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+   <div class="wrapper">
+      <div class="container">
+         <div class="row">
+            <div class="col-left">
+               <div class="left">
+                  <div class="details">
+                     <div class="info">
+                        <div class="merchant-dtl">
+                           <span class="placeholder">
+                              <img src="img/taj-hotel-logo.png" alt="logo">
+                           </span>
+                           <h2 class="placeholder">Taj Santacruz, Mumbai</h2>
+                           <p class="placeholder">Chatrapati Shivaji International Airport (Domestic Terminal),<br>
+                              Off Western Express Highway, Mumbai, India
+                           </p>
+                        </div>
+                        <div class="order-dtl">
+                           <strong class="placeholder">Order ID</strong>
+                           <div class="placeholder">MMT12389GHPA00PMMT12389HPA00</div>
+                        </div>
+                     </div>
+                     <div class="cust-info">
+                        <h2 class="placeholder">Customer Information</h2>
+                        <div class="data-list placeholder">
+                           <div class="item">
+                              <span class="placeholder"><i class="fa-light fa-user"></i>Name :</span>
+                              <div class="placeholder">Ashwini Petkar</div>
+                           </div>
+                           <div class="item">
+                              <span class="placeholder"><i class="fa-light fa-envelope"></i>Email :</span>
+                              <div class="placeholder">ashwini.petkar@avenues.info</div>
+                           </div>
+                           <div class="item">
+                              <span class="placeholder"><i class="fa-light fa-phone"></i>Mobile :</span>
+                              <div class="placeholder">9987898765</div>
+                           </div>
+                           <div class="item">
+                              <span class="placeholder"><i class="fa-regular fa-hashtag"></i>Merchant Ref. # 1 :</span>
+                              <div class="placeholder">NA</div>
+                           </div>
+                           <div class="item">
+                              <span class="placeholder"><i class="fa-regular fa-hashtag"></i>Merchant Ref. # 2 :</span>
+                              <div class="placeholder">NA</div>
+                           </div>
+                           <div class="item">
+                              <span class="placeholder"><i class="fa-regular fa-hashtag"></i>Merchant Ref. # 3 :</span>
+                              <div class="placeholder">NA</div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-right">
+               <div class="right">
+                  <div class="summary">
+                     <div class="amount-dtl">
+                        <strong class="placeholder">Total Amount Payable</strong>
+                        <div class="placeholder"><i class="fa-duotone fa-indian-rupee-sign"></i>120000<span>.00</span>
+                        </div>
+                        <small class="placeholder"><i class="fa-solid fa-lock"></i>Secure Payment</small>
+                     </div>
+                     <hr class="divider" />
+                     <div class="action">
+                        <button class="button secondary-button placeholder">Pay Now</button>
+                        <button class="button primary-button placeholder">Pay Later</button>
+                     </div>
+                     <div class="note placeholder"><strong><i class="fa-regular fa-circle-info"></i>Note :</strong> For
+                        authentication, an amount of Rs. 1.00 will be charged
+                        to
+                        your card and auto-reversed within 3 to 4 working days.</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+   <script>
+      $(function () {
+         setTimeout(() => {
+            $('.placeholder').removeClass('placeholder').addClass('fade-in')
+            // $('.placeholder').removeClass('placeholder')
+         }, 2000)
+      })
+   </script>
+</body>
+
+</html>
