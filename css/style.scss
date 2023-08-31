@@ -279,9 +279,9 @@ strong {
                         margin-right: 12px;
                         color: #7c7c7c;
 
-                        i {
+                        svg {
                             margin-right: 10px;
-                            opacity: 0.5;
+                            fill: #929292;
                         }
                     }
                     div {
@@ -335,14 +335,21 @@ strong {
                 font-size: 45px;
                 font-weight: 700;
                 margin: 12px 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
 
                 @media (max-width: 375px) {
                     margin: 8px 0;
                 }
 
-                i {
-                    font-size: 38px;
-                    margin-right: 10px;
+                svg {
+                    margin-right: 8px;
+                    fill: #2770e4;
+
+                    .fa-secondary {
+                        opacity: 0.5;
+                    }
                 }
 
                 span {
@@ -355,9 +362,9 @@ strong {
                 margin-top: 6px;
                 font-size: 12px;
 
-                i {
-                    margin-right: 8px;
-                    color: #009553;
+                svg {
+                    margin-right: 7px;
+                    fill: #009553;
                 }
             }
         }
@@ -427,8 +434,9 @@ strong {
             color: #978956;
             border-left: 3px solid #e7d8a1;
 
-            i {
+            svg {
                 margin-right: 4px;
+                fill: #978956;
             }
         }
     }
